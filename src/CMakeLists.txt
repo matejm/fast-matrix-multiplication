@@ -1,0 +1,2 @@
+add_library(fast_matrix_multiplication INTERFACE)
+target_include_directories(fast_matrix_multiplication INTERFACE .)

@@ -1,0 +1,5 @@
+add_executable(demo demo.cpp)
+target_link_libraries(demo fast_matrix_multiplication)
+
+add_executable(time_multiplication time_multiplication.cpp)
+target_link_libraries(time_multiplication fast_matrix_multiplication)
